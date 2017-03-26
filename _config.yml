@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Susan Li| Data Ninja
+title:            Susan Li | Data Ninja
 locale:           en_US
 baseurl:          https://susanli2016.github.io
 url: 		      https://susanli2016.github.io
@@ -42,7 +42,7 @@ titlecase: true
 # Site owner
 owner:
   name: Susan Li
-  avatar: figs/bio-photo/bio-photo.jpg
+  avatar:bio-photo.jpg
   bio: Self-taught Data Analyst 
   email: #username
   disqus-shortname: #mbcrump
