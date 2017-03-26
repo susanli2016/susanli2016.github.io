@@ -1,16 +1,11 @@
 ---
 layout: post
 title: "Causes of Death in the US"
-date: 2017-03-25
-output:
-  html_document
-share: true
-categories: blog
 excerpt: "Causes of Death"
 tags: [rstats]
+share: true
+comments: true
 ---
-
-
 
 Want to know how other people die? The [Centers of Disease Control and Prevention (CDC)](https://wonder.cdc.gov/ucd-icd10.html) provides estimates for the number of people who die due to each of the causes, from 1999 to 2015. The following are the causes of death at a glance.
 
