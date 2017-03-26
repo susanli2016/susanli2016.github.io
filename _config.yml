@@ -1,0 +1,71 @@
+# Site wide configuration
+
+title:            Susan Li| Data Ninja
+locale:           en_US
+baseurl:          https://susanli2016.github.io
+url: 		      https://susanli2016.github.io
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+
+# Octopress
+
+# Default extensions
+post_ext: md
+page_ext: md
+
+# Found in _templates/
+post_layout: post
+page_layout: page
+
+# Format titles with titlecase?
+titlecase: true
+
+
+# Site owner
+owner:
+  name: Susan Li
+  avatar: figs/bio-photo/bio-photo.jpg
+  bio: Self-taught Data Analyst 
+  email: #username
+  disqus-shortname: #mbcrump
+  twitter: attractchinese
+  facebook: #username
+  google: #username 
+  bing-verify: 
+  github: susanli2016
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  linkedin: susanli
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  vine: #username
+  weibo: #username
+  flickr: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
