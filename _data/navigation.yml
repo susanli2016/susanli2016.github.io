@@ -1,0 +1,11 @@
+# Site navigation links
+
+- title: Posts
+  url: /posts/
+
+- title: RSS
+  url: https://susanli2016.github.io/feed
+  
+- title: About Me
+  url: http://about.me/mbcrump
+  
