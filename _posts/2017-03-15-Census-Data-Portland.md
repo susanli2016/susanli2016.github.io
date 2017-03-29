@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Census Data for Portland Main"
+title: "Census Data for Portland, Main"
 excerpt: "Census"
 tags: [rstats]
 share: true
