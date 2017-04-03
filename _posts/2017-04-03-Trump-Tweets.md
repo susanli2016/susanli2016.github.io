@@ -49,7 +49,7 @@ tweets.df <- twListToDF(tweets)
 ##[1] "realDonaldTrump: .@FoxNews from multiple sources: \"There was electronic ##surveillance of Trump, and people close to Trump. This is unprecedented.\" ##@FBI"
 {% endhighlight %}
 
-Text cleaning process, which includes convert all letters to lower case, remove URL, remove anything other than English letter and space, remove stopwords, and extra white space. 
+Text cleaning process, which includes convert all letters to lower case, remove URL, remove anything other than English letter and space, remove stopwords and extra white space. 
 
 {% highlight r %}
 library(tm) 
@@ -277,7 +277,7 @@ cat(names(s)[1:3], "\n")
 ##cluster 8: state vote get 
 {% endhighlight %}
 
-I have admit that I can't easily distinguish the clusters of Trump's tweets are of diﬀerent topics.
+I have admit that I can't easily distinguish cluster 2, cluster 3 and cluster 6 of Trump's tweets are of diﬀerent topics.
 
 ### Sentiment Analysis
 
