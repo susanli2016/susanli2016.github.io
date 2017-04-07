@@ -9,7 +9,7 @@ comments: true
 
 [2016 Canadian census data will be released later this year](http://www12.statcan.gc.ca/census-recensement/2016/ref/release-dates-diffusion-eng.cfm), according to [Statistics Canada](http://www.statcan.gc.ca/eng/start). I wasn't going to wait, I decided to play around with [U.S. Census Bureau 2010-2014 ACS (American Community Survey) data](https://www.census.gov/programs-surveys/acs/). 
 
-For this project, I will use a number of packages as follows:
+For this project, I will be using a number of packages as follows:
 
 {% highlight r %}
 library(sp)
@@ -65,7 +65,7 @@ head(bos_poverty)
 
 The related table can be found at [Census FactFinder](https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_14_5YR_B17021&prodType=table)
 
-Next, I need to convert poverty from count to percentage, then calculate the margin of error(MOE)for each percentage. Because MOE is an indicator of the reliability of ACS estimates. Adding the MOE to the estimate provides an upper limit and subtracting the MOE from the estimate provides a lower limit of the range where the true value of the estimate most likely actually falls.
+Next, I need to convert poverty from count to percentage, then calculate the margin of error(MOE) for each percentage. Because MOE is an indicator of the reliability of ACS estimates. Adding the MOE to the estimate provides an upper limit and subtracting the MOE from the estimate provides a lower limit of the range where the true value of the estimate most likely actually falls.
 
 {% highlight r %}
 bos_poverty_1 <- bos_poverty %>%
@@ -193,6 +193,6 @@ ggmap(bos_basemap) +
 
 ### The End 
 
-I enjoyed learning US Census data, and learning about maps and how to make them is very rewarding. `tigris` and `acs14lite` packages developed by Kyle Walker (https://walkerke.github.io/) are essential for this small project. I look forward to mapping Canadian census data later this year. 
+I enjoyed learning US Census data, and learning about maps and how to make them is very rewarding. `tigris` and `acs14lite` packages developed by [Kyle Walker](https://walkerke.github.io/) are essential for this small project. I look forward to mapping Canadian census data later this year. 
 
 Source code that created this post can be found [here](https://github.com/susanli2016/Data-Analysis-with-R/blob/master/Mapping-Boston-Poverty.Rmd). I am happy to hear any feedback and questions.
