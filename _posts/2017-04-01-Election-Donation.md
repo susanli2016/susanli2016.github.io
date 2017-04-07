@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Financial Contributions to 2016 Presidential Campaigns in Massachusetts"
-excerpt: "Analyzing and Mapping Campaign Donors"
+excerpt: "Analyzing and Mapping Campaign Donors, Logistic Regression"
 tags: [rstats]
 share: true
 comments: true
