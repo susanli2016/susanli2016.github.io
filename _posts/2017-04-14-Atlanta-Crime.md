@@ -143,7 +143,7 @@ ggplot(data = topLocations, aes(x = dayofWeek, fill = neighborhood)) +
 
 ![crime-6](/figs/2017-04-14-Atlanta-Crime/crime-6.png)
 
-The number of crimes increased in downtown and decreased on Tuesdays. Crime distribution is fairly even throughout the week for Midtown and Old Fourth Ward. North Buckhead reported least crimes on Sundays. 
+The number of crimes in downtown increased in weekends and decreased on Tuesdays. Crime distribution is fairly even throughout the week for Midtown and Old Fourth Ward. North Buckhead reported least crimes on Sundays. 
 
 {% highlight r %}
 topCrimes_1 <- topCrimes %>% group_by(`UC2 Literal`, hour) %>% 
@@ -182,8 +182,9 @@ atlantaMap + stat_density2d(aes(x = lon, y = lat,
 ![crime-8](/figs/2017-04-14-Atlanta-Crime/crime-8.png)
 
 The density areas can be interpreted as follows: 
+All the shaded areas together contain 3/4 of the top crimes in the data. Each shade represents 1/4 of the top crimes in the data. The smaller the area of a particular shade, the higher the crime density.
 
-all the shaded areas together contain 3/4 of the top crimes in the data. Each shade represents 1/4 of the top crimes in the data. The smaller the area of a particular shade, the higher the crime density.
+### The End
 
 Remember that we are seeing crime data here, not arrest data, It would be more meaningful if the original dataset contains arrest information. I would be interested to see where the arrests are happening. 
 
