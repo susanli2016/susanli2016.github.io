@@ -343,9 +343,9 @@ This time New York City takes the lead by a large margin in the number of H-1B V
 states_map <- map_data("state")
 ggplot(visa_state, aes(map_id = region)) + 
     geom_map(aes(fill = count), map = states_map) +
-    scale_fill_gradientn(colours=c("blue","green","yellow","red")) + 
+    scale_colour_brewer(palette='Greens') + 
     expand_limits(x = states_map$long, y = states_map$lat) +
-  xlab('longitude') + ylab('latitude') + ggtitle('State H-1B Visas Applications')
+  xlab('longitude') + ylab('latitude') + ggtitle('State H-1B Visa Applications')
 {% endhighlight %}
 
 ![visa-9](/figs/2017-04-12-Visa-Petitions/visa-9.png)
