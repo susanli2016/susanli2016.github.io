@@ -368,7 +368,7 @@ auc
 
 The area under the curve corresponds the AUC.
 
-As a last step, as I have just learned, use the effects package to compute and plot all variables. 
+As a last step, as I have just learned, use the `effects` package to compute and plot all variables. 
 
 {% highlight r %}
 library(effects)
