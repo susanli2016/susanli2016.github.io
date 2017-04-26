@@ -372,4 +372,5 @@ Source code that created this post can be found [here](https://github.com/susanl
 References: 
 
 [The gutenbergr package](https://ropensci.org/tutorials/gutenbergr_tutorial.html)
+
 [Text Mining With R](http://tidytextmining.com/)
