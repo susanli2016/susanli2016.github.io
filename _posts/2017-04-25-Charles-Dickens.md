@@ -371,4 +371,5 @@ Source code that created this post can be found [here](https://github.com/susanl
 
 References: 
 
-[Text Mining With R](http://tidytextmining.com/) By [Julia Silge](http://juliasilge.com/) and [David Robinson](http://varianceexplained.org/).
+[The gutenbergr package](https://ropensci.org/tutorials/gutenbergr_tutorial.html)
+[Text Mining With R](http://tidytextmining.com/)
