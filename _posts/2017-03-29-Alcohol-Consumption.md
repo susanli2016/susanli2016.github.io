@@ -34,7 +34,7 @@ ggplot(aes(x = Ref_Date, y = Value, group = 1), data = drink[(drink$GEO == 'Cana
 
 ![alcohol-1](/figs/2017-03-29-Alcohol-Consumption/alcohol-1.png)
 
-Canadians from 25 years ago were bigger drinkers than we are today. 
+Canadians in about 1989 were bigger drinkers than we are today. 
 
 Let's have a look what we drink.
 
