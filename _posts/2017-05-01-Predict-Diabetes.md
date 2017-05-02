@@ -217,9 +217,9 @@ anova(model, test="Chisq")
 ##Age                       1    0.031       533     526.56  0.860201    
 ##---
 ##Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-##From the table of deviance, we can see that adding insulin and age have ##little effect on the residual deviance.
 {% endhighlight %}
+
+From the table of deviance, we can see that adding insulin and age have little effect on the residual deviance.
 
 ### Cross Validation
 
