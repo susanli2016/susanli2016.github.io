@@ -312,6 +312,10 @@ misClasificError <- mean(fitted.results != test$cvdstrk3)
 print(paste('Accuracy',1-misClasificError))
 {% endhighlight %}
 
+{% highlight text %}
+##[1] "Accuracy 0.961296978629329
+{% endhighlight %}
+
 The 0.96 accuracy on the test set is a very good result.
 
 ### Plot the ROC curve and calculate the AUC (area under the curve).
