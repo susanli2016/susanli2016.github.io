@@ -28,11 +28,11 @@ The Behavioral Risk Factor Surveillance System (BRFSS) is an annual telephone su
 
 ### Data Collection:
 
-Data collection procedure is explained in [brfss_codebook]( https://d3c33hcgiwev3.cloudfront.net/_e34476fda339107329fc316d1f98e042_brfss_codebook.html?Expires=1494288000&Signature=RuCtQECi5hYrD999rLNfP4Vp3wIxf3qxs-egVp6zbTdoKbF-ob~Gw3F767Isf84f2xFMy2etvZ--2Z7FxCSpK0c~IdzUkUIq7EsUiuARi-qgv5tLnUYXKpbLhPXH9rmh8xV4MF~CNQ2FyHmyArTsQ3vSp1IpHYx1ypJ9ayDSZAc_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A). The data were collected from United States' all 50 states, the District of Columbia, Puerto Rico, Guam and American Samoa, Federated States of Micronesia, and Palau, by conducting both landline telephone and cellular telephone-based surveys. Disproportionate stratified sampling (DSS) has been used for the landline sample and the cellular telephone respondents are randomly selected with each having equal probability of selection. The dataset we are working on contains 330 variables for a total of 491, 775 samples in 2013. The missing values denoted by "NA".   
+Data collection procedure is explained in [brfss_codebook]( https://d3c33hcgiwev3.cloudfront.net/_e34476fda339107329fc316d1f98e042_brfss_codebook.html?Expires=1494288000&Signature=RuCtQECi5hYrD999rLNfP4Vp3wIxf3qxs-egVp6zbTdoKbF-ob~Gw3F767Isf84f2xFMy2etvZ--2Z7FxCSpK0c~IdzUkUIq7EsUiuARi-qgv5tLnUYXKpbLhPXH9rmh8xV4MF~CNQ2FyHmyArTsQ3vSp1IpHYx1ypJ9ayDSZAc_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A). The data were collected from United States' all 50 states, the District of Columbia, Puerto Rico, Guam and American Samoa, Federated States of Micronesia, and Palau, by conducting both landline telephone and cellular telephone-based surveys. Disproportionate stratified sampling (DSS) has been used for the landline sample and the cellular telephone respondents are randomly selected with each having equal probability of selection. The dataset we are working on contains 330 variables for a total of 491, 775 observations in 2013. The missing values denoted by "NA".   
 
 ### Generalizability:
 
-Population of interest are adult, aged 18 years or older, who reside in the US. The analysis can be generalized to the population as it is an observational study using random sampling of a large sampling size (491,775). However, the potential bias could be no response bias, incomplete interview, missing values and convenience bias(some people may not have landline and cell phone).
+The sample data should allow us to generalize to the population of interest. It is a survey of 491,775 U.S. adults aged 18 years or older. It is based on a large stratified random sample. Potential biases are associated with non-response, incomplete interviews, missing values and convenience bias (some potential respondents may not have been included because they do not have a landline and cell phone).
  
 ### Causality:
 
@@ -42,11 +42,11 @@ There is no causation can be established as BRFSS is an observation study that c
 
 ### Research quesion 1:
 
-What is the distribution of health condition between gender?
+Does the distribution of the number of days in which physical and mental health was not good during the past 30 days differ by gender?
 
 ### Research quesion 2:
 
-Is there association between interview month and respondents' health perception?
+Is there an association between the month in which a respondent was interviewed and the respondent’s self-reported health perception?
 
 ### Research quesion 3:
 
@@ -54,7 +54,7 @@ Is there any association between income and health care coverage?
 
 ### Research quesion 4:
 
-Is there any relation between smoking, drinking alcohol, cholesterol level, blood pressure, weight and stroke. Eventually, I would like to see whether stroke can be predicted from the above mentioned variables. 
+Is there any relation between smoking, drinking alcohol, cholesterol level, blood pressure, weight and having a stroke? Eventually, I would like to see whether stroke can be predicted from the above mentioned variables. 
 
 ## Part 3: Exploratory data analysis
 
@@ -108,7 +108,7 @@ ggplot(aes(x=imonth, y=n), data=by_month1) + geom_bar(stat = 'identity') + ggtit
 
 ![brfss-8](/figs/2017-05-08-brfss-data/brfss-8.png)
 
-I was trying to find out whether people respond their health condition differently in the different month. It appears that there was no obvious pattern. 
+I was trying to find out whether people respond their health condition differently in the different month. For example, are people more likely to say they are in good health in the spring or summer? It appears that there was no obvious pattern.
 
 ### Research quesion 3:
 
