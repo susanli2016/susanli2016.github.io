@@ -105,7 +105,7 @@ ggplot(hpi, aes(x=gdp, y=life_expectancy)) +
 
 ![life-1](/figs/2017-05-19-Happy-Planet/life-1.png)
 
-After log transformation, the relationship between GDP per capita and life expectancy is relatively strong. These two variables are concordant. The Pearson correlation between this two variable is reasonably high, at approximate 0.62.
+After log transformation, the relationship between GDP per capita and life expectancy is more clear and looks relatively strong. These two variables are concordant. The Pearson correlation between this two variable is reasonably high, at approximate 0.62.
 
 {% highlight r %}
 cor.test(hpi$gdp, hpi$life_expectancy)
@@ -250,7 +250,7 @@ head(eigenvalues)
 ##comp 6 0.05229306              0.5229306                          99.44471
 {% endhighlight %}
 
-Interpreting:
+Interpretation:
 
 1. The proportion of variation retained by the principal components was extracted above.
 
