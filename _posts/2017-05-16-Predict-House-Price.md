@@ -225,7 +225,7 @@ summary(fit)
 
 After eliminating "PoolArea", R-Squared almost identical, Adjusted R-squared slightly improved. At this point, I think I can start building the model.
 
-However, as we have seen earlier, two variables - "GrLivArea" and "TotRmsAbvGrd" are highly correlated, the multicollinearity between "GrLivArea" and "TotRmsAbvGrd" means that we should not directly interpret "GrLivArea" as the effect of "GrLivArea" on sale price adjusting for "TotRmsAbvGrd" These two effects are somewhat bounded together.
+However, as we have seen earlier, two variables - "GrLivArea" and "TotRmsAbvGrd" are highly correlated, the multicollinearity between "GrLivArea" and "TotRmsAbvGrd" means that we should not directly interpret "GrLivArea" as the effect of "GrLivArea" on sale price adjusting for "TotRmsAbvGrd". These two effects are somewhat bounded together.
 
 {% highlight r %}
 attach(train)
