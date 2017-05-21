@@ -24,7 +24,7 @@ load("brfss2013.RData")
 
 ## Part 1: About the Data
 
-The Behavioral Risk Factor Surveillance System (BRFSS) is an annual telephone survey in the United States. The BRFSS is designed to identify so-called risk factors in the adult population and report emerging trends. For example, respondents are asked about their diet and weekly physical activity, their HIV/AIDS status, possible tobacco use, immunization, health status, healthy days - health-related quality of life, health care access, inadequate sleep, hypertension awareness, cholesterol awareness, chronic health conditions, alcohol consumption, fruits and vegetables consumption, arthritis burden, and seatbelt use etc.
+The Behavioral Risk Factor Surveillance System (BRFSS) is an annual telephone survey in the United States. The BRFSS is designed to identify risk factors in the adult population and report emerging trends. For example, respondents are asked about their diet and weekly physical activity, their HIV/AIDS status, possible tobacco use, immunization, health status, healthy days - health-related quality of life, health care access, inadequate sleep, hypertension awareness, cholesterol awareness, chronic health conditions, alcohol consumption, fruits and vegetables consumption, arthritis burden, and seatbelt use.
 
 ### Data Collection:
 
@@ -272,7 +272,17 @@ summary(model)
 
 Interpreting the results of my logistic regression model:
 
-All the variables are statistically significant, they are: bphigh4(Ever Told Blood Pressure High), toldhi2(Ever Told Blood Cholesterol High), weight2(Reported Weight In Pounds), smoke100(Smoked At Least 100 Cigarettes), avedrnk2(Avg Alcoholic Drinks Per Day In Past 30 days). The negative coefficient for this predictor (toldhi2No) suggests that all other variables being equal, not being told blood cholesterol high is less likely to have stroke.
+All the variables are statistically significant.
+
+* All other variables being equal, being told blood pressure high is more likely to have a stroke.
+
+* The negative coefficient for the predictor - toldhi2No suggests that all other variables being equal, not being told blood cholesterol high is less likely to have a stroke.
+
+* For every one unit change in weight, the log odds of having a stroke (versus no-stroke) decreases by 0.00096.
+
+* Not Smoked At Least 100 Cigarettes, less likely to have a stroke.
+
+* For a one unit increase in Avg alcoholic drinks per day in past 30 days, the log odds of having a stroke decreases by 0.027.
 
 {% highlight r %}
 anova(model, test="Chisq")
