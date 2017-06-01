@@ -62,7 +62,7 @@ letter_words <- letters %>%
          !word %in% stop_words$word)
 {% endhighlight %}
 
-### The most common words throughout the 40 years of letters.
+### The most common words throughout the 40 years of letters
 
 {% highlight r %}
 letter_words %>% 
@@ -125,7 +125,7 @@ words_by_year
 ### ... with 83,527 more rows
 {% endhighlight %}
 
-### Sentiment by Year.
+### Sentiment by Year
 
 Examine how often positive and negative words occurred in these letters. Which years were the most positive or negative overall?
 
@@ -150,7 +150,7 @@ letters_sentiments %>%
 
 Warren Buffett is known for his long-term, optimistic economic outlook. Only 1 out of 40 letters appeared negative. Berkshire’s loss in net worth during 2001 was $3.77 billion, in addition, 911 terrorist attack contributed to the negative sentiment score in that year's letter. 
 
-### Sentiment Analysis by Words.
+### Sentiment Analysis by Words
 
 Examine the total positive and negative contributions of each word.
 
