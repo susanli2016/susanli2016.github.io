@@ -62,7 +62,7 @@ letter_words <- letters %>%
          !word %in% stop_words$word)
 {% endhighlight %}
 
-### The most common words throughout the 40 years of letters
+### The most common words throughout 40 years of letters
 
 {% highlight r %}
 letter_words %>% 
