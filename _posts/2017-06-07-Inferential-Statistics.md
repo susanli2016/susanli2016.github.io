@@ -222,7 +222,7 @@ ggplot(aes(x=marital), data=gss_ma) + geom_bar(aes(fill=satfin), position = posi
 **Observations:**
 
 * The number of respondents who are more or less satisfied with financial situation are the highest across all groups of marital status except "Separated" group. 
-* The number of respondents who are not at all satisfied with financial situation are lowest in "Married", "Widowed" and "Divorced" groups.
+* The number of respondents who are not at all satisfied with financial situation are lowest in "Married" and "Widowed" groups.
 * The number of respondents who are satisfied with financial situation are lowest in "Never Married", "Separated" and "Divorced" groups. 
 
 ### Inference for Research Question 2
