@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4 years of The Hacker News, in 5 charts"
+title: "4 years of The Hacker News, in 5 Charts"
 excerpt: "Hacker News, Text Analysis"
 tags: [rstats]
 share: true
