@@ -7,7 +7,7 @@ share: true
 comments: true
 ---
 
-In machine learning and natural language processing, A "topic" consists of a cluster of words that frequently occur together.[a topic model is a type of statistical model for discovering the abstract "topics" that occur in a collection of documents. Topic modeling is a frequently used text-mining tool for discovery of hidden semantic structures in a text body](https://en.wikipedia.org/wiki/Topic_model). Topic models can connect words with similar meanings and distinguish between uses of words with multiple meanings. 
+In machine learning and natural language processing, A "topic" consists of a cluster of words that frequently occur together. [A topic model is a type of statistical model for discovering the abstract "topics" that occur in a collection of documents. Topic modeling is a frequently used text-mining tool for discovery of hidden semantic structures in a text body](https://en.wikipedia.org/wiki/Topic_model). Topic models can connect words with similar meanings and distinguish between uses of words with multiple meanings. 
 
 For this analysis, I downloaded 22 recent articles from business and technology sections at New York Times. I am using the collection of these 22 articles as my corpus for the topic modeling exercise. Therefore, each article is a document, with an unknown topic structure.
 
