@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Topic Modeling of New York Times Articles"
-excerpt: "topic modeling, Text mining, New York Times"
+excerpt: "Topic modeling, Text mining, New York Times"
 tags: [rstats]
 share: true
 comments: true
