@@ -210,7 +210,7 @@ nytimes_top_terms %>%
 
 From a quick view of the visualization it appears that the algorithm has done a decent job. The most common words in topic 9 include “uber” and “khosrowshahi", which suggests it is about the new Uber CEO Dara Khosrowshahi. The most common words in topic 5 include “insurance”, “houston”, and “corporate”, suggesting that this topic represents insurance related matters after Houston's Hurrican Harvey. One interesting observation is that the word "company" is common in 6 of the 9 topics.
 
-For the interest of space, I fit a model with 9 topics to this dataset. I encourage you to try a range of different values of k (topic) to find the optimal number of topics, to see whether the model's performace can be improved.  
+For the interest of space, I fit a model with 9 topics to this dataset. I encourage you to try a range of different values of k (topic) to find the optimal number of topics, to see whether the model's performance can be improved.
 
 ## Document-topic probabilities
 
