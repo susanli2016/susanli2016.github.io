@@ -22,7 +22,7 @@ library(ggplot2)
 library(dplyr)
 {% endhighlight %}
 
-## Set the working directly.
+## Set the working directory.
 
 {% highlight r %}
 setwd('C:/Users/Susan/Documents/textmining')
